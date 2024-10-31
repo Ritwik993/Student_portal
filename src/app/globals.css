@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    /* color will be inherited from the parent */
+}
+
+
+body{
+    background-color: rgb(227, 236, 243);
+    /* overflow: hidden; */
+}
+
+.container{
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 100vh;
+} */

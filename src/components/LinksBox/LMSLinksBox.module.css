@@ -1,0 +1,100 @@
+.container {
+    background-color: #4749B3;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 346px;
+    border: none;
+    border-radius: 8px;
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.container:hover {
+    color: #4749B3;
+    background-color: white;
+}
+
+.container {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.img {
+    transition: filter 0.3s ease;
+}
+
+.container:hover .img {
+    filter: brightness(0) saturate(100%) invert(39%) sepia(100%) saturate(585%) hue-rotate(210deg) brightness(93%) contrast(95%);
+    /* Example filter for blue color */
+}
+
+
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+@media (max-width:950px) {
+    .container {
+        display: flex;
+        align-items: center;
+        /* gap:20px; */
+        padding-top: 40px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        /* opacity: 0.5; */
+    }
+
+    .img {
+        width: 36px;
+        height: 36px;
+
+    }
+
+    .imageContainer {
+        /* flex: 2; */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #7E81FF;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border: none;
+        border-radius: 8px;
+        transition: color 0.6s ease, background-color 0.6s ease;
+    }
+
+    .title {
+        flex: 2;
+        margin-left: 10px;
+    }
+
+    .container:hover .imageContainer {
+        color: #4749B3;
+        background-color: white;
+    }
+
+    .container:hover .imageContainer .img {
+        filter: brightness(0) saturate(100%) invert(39%) sepia(100%) saturate(585%) hue-rotate(210deg) brightness(93%) contrast(95%);
+
+    }
+
+    .subtitle {
+        display: none;
+    }
+}
