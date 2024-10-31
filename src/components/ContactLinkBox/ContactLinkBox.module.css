@@ -3,7 +3,9 @@
     color: white;
     text-align: center;
     margin: auto;
-    width: 346px;
+    /* width: 346px; */
+    width:  346px;
+
     border: none;
     border-radius: 8px;
 
@@ -46,7 +48,9 @@
 
 @media (max-width:950px) {
     .container {
-        width:320px;
+        /* width:320px; */
+        width: 100%;
+
         display: flex;
         align-items: center;
         /* gap:20px; */
@@ -76,7 +80,7 @@
         padding: 20px;
         border: none;
         border-radius: 8px;
-        transition: color 0.6s ease,background-color 0.6s ease;
+        transition: color 0.6s ease, background-color 0.6s ease;
     }
 
     .title {

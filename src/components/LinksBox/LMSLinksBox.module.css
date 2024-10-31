@@ -2,8 +2,9 @@
     background-color: #4749B3;
     color: white;
     text-align: center;
-    margin: auto;
     width: 346px;
+    margin: auto;
+    /* width: 346px; */
     border: none;
     border-radius: 8px;
 
@@ -47,7 +48,9 @@
 
 @media (max-width:950px) {
     .container {
-        width:320px;
+        /* width:320px; */
+        width: 100%;
+
         display: flex;
         align-items: center;
         /* gap:20px; */
