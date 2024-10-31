@@ -81,7 +81,7 @@
 
     .title {
         flex: 2;
-        margin-left: 10px;
+        margin-left: 50px;
     }
 
     .container:hover .imageContainer {

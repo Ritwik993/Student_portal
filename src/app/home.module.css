@@ -63,6 +63,7 @@ div.videoList{
 
 .videoBoxContainer {
     padding: 20px;
+    width: 100%;
     border: none;
     border-radius: 20px;
     background-color: white;
@@ -115,6 +116,13 @@ div.videoList{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+
+.optionsBox{
+    margin-left: 10px;
+    display: flex;
+    gap:10px;
 }
 
 .selectBox {
@@ -137,5 +145,9 @@ div.videoList{
 
     .title {
         font-size: 20px;
+    }
+
+    .filterText{
+        font-size: 12px;
     }
 }

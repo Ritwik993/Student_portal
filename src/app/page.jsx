@@ -68,8 +68,8 @@ const Home = () => {
                   <input type="text" className={styles.inputBox} placeholder="Search for class recordings" />
                 </div>
                 <div className={styles.rightFilter}>
-                  <p>Filter By:</p>
-                  <div>
+                  <p className={styles.filterText}>Filter By:</p>
+                  <div className={styles.optionsBox}>
                     <select className={styles.selectBox}>
                       <option value="This week">This week</option>
                       <option value="Next week">Next week</option>
