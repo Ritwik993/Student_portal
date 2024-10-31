@@ -47,6 +47,7 @@
 
 @media (max-width:950px) {
     .container {
+        width:320px;
         display: flex;
         align-items: center;
         /* gap:20px; */
