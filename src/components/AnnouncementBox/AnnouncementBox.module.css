@@ -32,6 +32,18 @@
     color: white;
 }
 
+@media(max-width:1180px){
+    .text{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:1120px){
+    .text{
+        font-size: 8px;
+    }
+}
+
 @media (max-width:950px) {
     .text{
         font-weight: 300;

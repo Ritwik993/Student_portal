@@ -147,6 +147,18 @@ div.videoList{
     margin-right: 8px;
 }
 
+@media(max-width:1180px){
+    .container{
+        gap:50px;
+    }
+}
+
+@media(max-width:1120px){
+   .container{
+    gap:40px;
+   }
+   
+}
 
 
 @media(max-width:950px) {
