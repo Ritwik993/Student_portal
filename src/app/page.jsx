@@ -13,6 +13,7 @@ import React from "react";
 import Notification from "@/components/Notification/Notification";
 import { announcements, recording, schedule } from "../../utils/data";
 import react from "react";
+import NoLive from "@/components/NoLive/NoLive";
 
 
 const Home = () => {
@@ -21,6 +22,11 @@ const Home = () => {
   const annoucementData = announcements;
   const schedulesData = schedule;
   const videoData = recording;
+  // return(
+  //   <div className={styles.noLive}>
+  //     <NoLive/>
+  //   </div>
+  // )
 
   return (
     <>

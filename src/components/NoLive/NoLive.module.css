@@ -1,0 +1,121 @@
+.container {
+    background-color: #6F6F6F;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 346px;
+    border: none;
+    border-radius: 8px;
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.container:hover {
+    color:  #6F6F6F;
+    background-color: white;
+}
+
+.container {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.img {
+    transition: filter 0.3s ease;
+}
+
+.container:hover .img {
+    filter: brightness(0) saturate(100%) invert(33%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%);
+
+}
+    /* filter: brightness(0) invert(1);
+    filter: brightness(0) saturate(100%) invert(60%) sepia(100%) saturate(300%) hue-rotate(270deg);
+} */
+
+
+
+
+
+
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+@media (max-width:950px) {
+    .container {
+        display: flex;
+        align-items: center;
+        /* gap:20px; */
+        padding-top: 40px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        width: 100%
+        /* width:320px; */
+        /* opacity: 0.5; */
+    }
+
+    .img {
+        width: 36px;
+        height: 36px;
+
+    }
+
+    .imageContainer {
+        /* flex: 2; */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #6F6F6F;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .title {
+        flex: 1;
+        margin-left: 50px;
+    }
+
+    .container:hover .imageContainer {
+        color:  #6F6F6F;
+        background-color: white;
+    }
+
+    .container:hover .imageContainer .img {
+        filter: brightness(0) saturate(100%) invert(60%) sepia(100%) saturate(300%) hue-rotate(270deg);
+    }
+
+    /* .container {
+        background-color: #E66DFF;
+        color: white;
+        text-align: center;
+        margin: auto;
+        width: 346px;
+        border: none;
+        border-radius: 8px;
+    
+       
+        cursor: pointer;
+        position: relative;
+    } */
+
+    .subtitle {
+        display: none;
+    }
+}
