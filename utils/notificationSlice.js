@@ -14,3 +14,4 @@ const notificationSlice = createSlice({
 
 export const { toogleNotification } = notificationSlice.actions;
 export default notificationSlice.reducer;
+//This is notification slice
