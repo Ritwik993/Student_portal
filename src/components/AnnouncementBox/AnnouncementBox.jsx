@@ -12,6 +12,7 @@ const AnnouncementBox=({data})=>{
             <p className={styles.text}>{data.text}</p>
         </div>
     )
+    /**/
 }
 
 export default AnnouncementBox;
